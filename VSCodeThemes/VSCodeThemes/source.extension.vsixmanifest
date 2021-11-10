@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="VSCodeThemes.1de97df9-1821-4a05-970d-ebd79e0ab59d" Version="0.0.1" Language="en-US" Publisher="Hung Dao Luong" />
+        <Identity Id="VSCodeThemes.1de97df9-1821-4a05-970d-ebd79e0ab59d" Version="0.0.1" Language="en-US" Publisher="Hung Dao" />
         <DisplayName>Visual Studio Code Themes</DisplayName>
         <Description xml:space="preserve">Visual Studio Code Themes</Description>
         <MoreInfo>https://github.com/hungdluit/VisualStudio-VSCodeThemes.git</MoreInfo>
