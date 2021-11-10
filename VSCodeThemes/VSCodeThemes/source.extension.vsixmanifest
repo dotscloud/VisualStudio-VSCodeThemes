@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="VSCodeThemes.1de97df9-1821-4a05-970d-ebd79e0ab59d" Version="0.0.1" Language="en-US" Publisher="Hung Dao Luong" />
+        <DisplayName>Visual Studio Code Themes</DisplayName>
+        <Description xml:space="preserve">Visual Studio Code Themes</Description>
+        <MoreInfo>https://github.com/hungdluit/VisualStudio-VSCodeThemes.git</MoreInfo>
+        <License>LICENSE.txt</License>
+        <Tags>vs-code;themes;vs-code-themes</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Visual Studio Code Drak Theme.pkgdef" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
